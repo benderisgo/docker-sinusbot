@@ -2,6 +2,20 @@ FROM ubuntu:yakkety
 
 MAINTAINER Bending_unit_22 <bender@criticalgaming.org>
 
+# Build-time metadata as defined at http://label-schema.org
+ARG BUILD_DATE
+ARG VCS_REF
+ARG VERSION
+LABEL org.label-schema.build-date=$BUILD_DATE \
+	  org.label-schema.name="docker-sinusbot" \
+	  org.label-schema.description="Fork of galexrt/docker-sinusbot" \
+	  org.label-schema.url="https://github.com/benderisgo/docker-sinusbot" \
+	  org.label-schema.vcs-ref=$VCS_REF \
+	  org.label-schema.vcs-url="https://github.com/benderisgo/docker-sinusbot" \
+	  org.label-schema.vendor="CriticalGaming" \
+	  org.label-schema.version=$VERSION \
+	  org.label-schema.schema-version="1.0"
+
 ENV SINUS_USER="3000" \
     SINUS_GROUP="3000" \
     SINUS_DIR="/sinusbot" \
