@@ -1,6 +1,6 @@
 FROM ubuntu:yakkety
 
-MAINTAINER Alexander Trost <galexrt@googlemail.com>
+MAINTAINER Bending_unit_22 <bender@criticalgaming.org>
 
 ENV SINUS_USER="3000" \
     SINUS_GROUP="3000" \
