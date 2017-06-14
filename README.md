@@ -1,12 +1,9 @@
 # docker-sinusbot
 
-[![](https://images.microbadger.com/badges/image/galexrt/sinusbot.svg)](https://microbadger.com/images/galexrt/sinusbot "Get your own image badge on microbadger.com")
-
-[![Docker Repository on Quay.io](https://quay.io/repository/galexrt/sinusbot/status "Docker Repository on Quay.io")](https://quay.io/repository/galexrt/sinusbot)
+[![Docker Repository on github](https://github.com/benderisgo/docker-sinusbot/status "Docker Repository on Github")](https://github.com/benderisgo/docker-sinusbot)
 
 Image available from:
-* [**Quay.io**](https://quay.io/repository/galexrt/sinusbot)
-* [**Docker Hub**](https://hub.docker.com/r/galexrt/sinusbot)
+* [**Docker Hub**](https://hub.docker.com/r/benderisgo/docker-sinusbot/)
 
 Docker Image with Sinusbot by Michael Friese.
 TeamSpeak 3 SinusBot Homepage: https://sinusbot.com/.
@@ -26,7 +23,7 @@ TeamSpeak: 3.0.19.4 (this version is required for Sinusbot)
 ### Updating the image
 Run the below command, to update the image to the latest version:
 ```
-docker pull quay.io/galexrt/sinusbot:latest
+docker pull benderisgo/sinusbot:latest
 ```
 
 ### Permissions
@@ -57,7 +54,7 @@ docker run \
     -v /opt/docker/sinusbot/data:/sinusbot/data \
     -v /opt/docker/sinusbot/scripts:/sinusbot/scripts \
     -p 8087:8087 \
-    galexrt/sinusbot:latest
+    benderisgo/sinusbot:latest
 ```
 
 ### SELinux
@@ -69,7 +66,7 @@ docker run \
     -v /opt/docker/sinusbot/data:/sinusbot/data:z \
     -v /opt/docker/sinusbot/scripts:/sinusbot/scripts:z \
     -p 8087:8087 \
-    galexrt/sinusbot:latest
+    benderisgo/sinusbot:latest
 ```
 
 ### Getting Sinusbot image
