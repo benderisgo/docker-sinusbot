@@ -1,6 +1,8 @@
 # docker-sinusbot
 
-[![Docker Repository on github](https://github.com/benderisgo/docker-sinusbot/status "Docker Repository on Github")](https://github.com/benderisgo/docker-sinusbot)
+[![](https://images.microbadger.com/badges/version/benderisgo/docker-sinusbot.svg)](https://microbadger.com/images/benderisgo/docker-sinusbot "Get your own version badge on microbadger.com")
+
+[![](https://images.microbadger.com/badges/image/benderisgo/docker-sinusbot.svg)](https://microbadger.com/images/benderisgo/docker-sinusbot "Get your own image badge on microbadger.com")
 
 Image available from:
 * [**Docker Hub**](https://hub.docker.com/r/benderisgo/docker-sinusbot/)
@@ -54,7 +56,7 @@ docker run \
     -v /opt/docker/sinusbot/data:/sinusbot/data \
     -v /opt/docker/sinusbot/scripts:/sinusbot/scripts \
     -p 8087:8087 \
-    benderisgo/sinusbot:latest
+    benderisgo/sinusbot:latest;
 ```
 
 ### SELinux
@@ -66,7 +68,7 @@ docker run \
     -v /opt/docker/sinusbot/data:/sinusbot/data:z \
     -v /opt/docker/sinusbot/scripts:/sinusbot/scripts:z \
     -p 8087:8087 \
-    benderisgo/sinusbot:latest
+    benderisgo/sinusbot:latest;
 ```
 
 ### Getting Sinusbot image
